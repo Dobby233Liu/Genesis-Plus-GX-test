@@ -1747,6 +1747,10 @@ void cdd_update(void)
 #endif
 
   /* drive latency */
+#if 1
+  if (cdd.latency > 4)
+    cdd.latency = 4;
+#endif
   if (cdd.latency > 0)
   {
     cdd.latency--;
