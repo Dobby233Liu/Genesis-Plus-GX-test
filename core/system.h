@@ -63,7 +63,7 @@
 #define MCLOCK_PAL  53203424
 
 /* Number of M-Cycles executed per line */
-#define MCYCLES_PER_LINE  3420
+#define MCYCLES_PER_LINE  3420 * 7
 
 /* Horizontal timing offsets when running in Z80 mode */
 #define SMS_CYCLE_OFFSET  530 
