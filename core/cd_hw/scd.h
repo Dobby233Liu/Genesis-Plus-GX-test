@@ -55,10 +55,10 @@
 
 /* ~3184 SCD clocks/line on NTSC system (53.693175 MHz Master Clock) */
 /* ~3214 SCD clocks/line on PAL system (53.203424 MHz Master Clock) */
-#define SCYCLES_PER_LINE scd.cycles_per_line
+#define SCYCLES_PER_LINE 3420 * 6
 
 /* Timer & Stopwatch clocks divider */
-#define TIMERS_SCYCLES_RATIO (384 * 4)
+#define TIMERS_SCYCLES_RATIO (384 * 4 / 6)
 
 /* CD hardware */
 typedef struct 
